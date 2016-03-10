@@ -7,9 +7,9 @@ require "light_gallery_rails/version"
 Gem::Specification.new do |s|
   s.name        = "light_gallery_rails"
   s.version     = LightGalleryRails::VERSION
-  s.authors     = ["Nicolaas"]
-  s.email       = ["nicolaas@catostylus.com"]
-  s.homepage    = "https://github.com/stNicolaas/light-gallery-rails"
+  s.authors     = ["lucmousinho"]
+  s.email       = ["lucmousinho@gmail.com"]
+  s.homepage    = "https://github.com/lucmousinho/light-gallery-rails"
   s.summary     = "Ruby on Rails wrapper for lightGallery https://github.com/sachinchoolur/lightGallery"
   s.description = "Ruby on Rails wrapper for lightGallery https://github.com/sachinchoolur/lightGallery"
   s.license     = "MIT"

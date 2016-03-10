@@ -1,5 +1,5 @@
 # jQuery lightGallery Rails
-Ruby on Rails wrapper for [jQuery lightGallery](https://github.com/sachinchoolur/lightGallery) 
+Ruby on Rails wrapper for [jQuery lightGallery](https://github.com/sachinchoolur/lightGallery)
 
 Description
 ----------------
@@ -13,7 +13,7 @@ How to use lightGallery?
 Add the following code to your Gemfile:
 
 ```ruby
-gem 'light_gallery_rails', git: 'https://github.com/stNicolaas/light-gallery-rails.git'   
+gem 'light_gallery_rails', git: 'https://github.com/lucmousinho/light-gallery-rails.git'
 ```
 
 Include the following code into your `application.js`
@@ -47,17 +47,17 @@ Create ul and li elements and add the path of the image or video inside the data
     <li data-responsive-src="mobile1.jpg" > </li>
     <!-- the large version of your image/video -->
     <li data-src="img1.jpg" > </li>
-     
+
     <!-- Custom html5 video html (will be inserted same like youtube vimeo videos) -->
     <li data-html="video html" /> </li>
     <!-- id or class name of an object(div) which contain your html. -->
     <li data-html="#inlineHtml" > </li>
-    
+
     <!-- Custom html (Caption description comments ...) -->
     <li data-sub-html="<h3>My caption</h3><p>My description..</p>" /> </li>
     <!-- id or class name of an object(div) which contain your html. -->
     <li data-sub-html="#inlineSubHtml" > </li>
-     
+
     <!-- If true your src will be displayed in an iframe.. -->
     <li data-iframe="true" data-src="http://www.w3schools.com/" > </li>
 ```
@@ -65,7 +65,7 @@ Create ul and li elements and add the path of the image or video inside the data
 ```html
 <script type="text/javascript">
   $(document).ready(function() {
-    $("#lightGallery").lightGallery(); 
+    $("#lightGallery").lightGallery();
   });
 </script>
 ```
@@ -130,7 +130,7 @@ Create ul and li elements and add the path of the image or video inside the data
           onSlidePrev   : function(el) {}, // Executes immediately before each "Prev" transition.
           onBeforeClose : function(el) {}, // Executes immediately before the start of the close process.
           onCloseAfter  : function(el) {}, // Executes immediately once lightGallery is closed.
-                
+
         });
     });
     </script>
@@ -151,6 +151,6 @@ In-depth explanation of settings can be found on a [separate page](http://sachin
 
 Versioning
 --------------------
-Version numbers will mirror the corresonding version of the [jQuery lightGallery](https://github.com/sachinchoolur/lightGallery) release used within this wrapper. 
+Version numbers will mirror the corresonding version of the [jQuery lightGallery](https://github.com/sachinchoolur/lightGallery) release used within this wrapper.
 
 .
